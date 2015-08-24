@@ -1,0 +1,25 @@
+{
+  "name": "gulp-ngdocs-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jenghung/gulp-ngdocs-example",
+  "authors": [
+    "jenghung <jenghung@cht.com.tw>"
+  ],
+  "description": "gulp ngdoc sample",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.x",
+    "angular-animate": "1.x",
+    "jquery": "1.x"
+  }
+}
