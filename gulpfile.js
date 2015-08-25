@@ -7,11 +7,11 @@ var ghPages = require('gulp-gh-pages');
 gulp.task('ngdocs', [], function () {
     var options = {
         scripts: [
-            'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/angular/angular.min.js',
-            'bower_components/angular/angular.min.js.map',
-            'bower_components/angular-animate/angular-animate.min.js',
-            'bower_components/angular-animate/angular-animate.min.js.map',
+            'node_modules/jquery/dist/jquery.min.js',
+            'node_modules/angular/angular.min.js',
+            'node_modules/angular/angular.min.js.map',
+            'node_modules/angular-animate/angular-animate.min.js',
+            'node_modules/angular-animate/angular-animate.min.js.map',
             'src/src.js',
             'src/focus.js'],
         html5Mode: false
