@@ -1,4 +1,0 @@
-test:
-  override:
-    - gulp ngdocs
-    - gulp deploy
